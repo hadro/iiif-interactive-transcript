@@ -27,7 +27,7 @@ $(document).ready( function() {
 	});
 
 	$('#getRandomManifestButton').click(function() {
-		getRandomManifestFromCollection('http://localhost:5000/bbctextav-master/iiif/collection.json', function() {
+		getRandomManifestFromCollection('https://hadro.github.io/iiif-interactive-transcript/bbctextav-master/iiif/collection.json', function() {
 			$('#parseManifestButton').click();
 		});
 	});
