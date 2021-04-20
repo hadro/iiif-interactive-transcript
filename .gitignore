@@ -24,3 +24,7 @@ pids
 *.mov
 *.mpg
 *.mp3
+
+*/venv/
+*/_pycache_/
+/bbctextav-master/iiif/old/*

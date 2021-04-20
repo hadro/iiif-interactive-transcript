@@ -27,7 +27,7 @@ $(document).ready( function() {
 	});
 
 	$('#getRandomManifestButton').click(function() {
-		getRandomManifestFromCollection('https://tomcrane.github.io/bbctextav/iiif/collection.json', function() {
+		getRandomManifestFromCollection('http://localhost:5000/bbctextav-master/iiif/collection.json', function() {
 			$('#parseManifestButton').click();
 		});
 	});

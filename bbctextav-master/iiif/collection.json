@@ -1,0 +1,24 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "http://iiif.io/api/presentation/3/context.json"
+    ],
+    "id": "https://hadro.github.io/iiif-interactive-transcript/bbctextav-master/iiif/collection.json",
+    "items": [
+        {
+            "id": "https://hadro.github.io/iiif-interactive-transcript/bbctextav-master/iiif/IIIFIIIF.json",
+            "label": {
+                "en": [
+                    "June 10, 2020: Introduction to IIIF"
+                ]
+            },
+            "type": "Manifest"
+        }
+    ],
+    "label": {
+        "en": [
+            "IIIF Intro Presentation Demo"
+        ]
+    },
+    "type": "Collection"
+}
