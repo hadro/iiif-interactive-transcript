@@ -5,7 +5,7 @@
             "body": {
                 "language": "en",
                 "type": "TextualBody",
-                "value": "Unknown: So feel free to follow along on your own machines as I'm talking."
+                "value": "Glen Robson: So feel free to follow along on your own machines as I'm talking."
             },
             "id": "https://hadro.github.io/iiif-interactive-transcript/bbctextav-master/iiif/text-1",
             "motivation": "supplementing",
@@ -434,66 +434,66 @@
             "body": {
                 "language": "en",
                 "type": "TextualBody",
-                "value": "So in here, there's an image API standard. And this gives you all the rules"
+                "value": "Unknown: So in here, there's an image API standard. And this gives you all the"
             },
             "id": "https://hadro.github.io/iiif-interactive-transcript/bbctextav-master/iiif/text-40",
             "motivation": "supplementing",
-            "target": "https://hadro.github.io/iiif-interactive-transcript/bbctextav-master/iiif/image_api/canvas#t=208.02,212.25",
+            "target": "https://hadro.github.io/iiif-interactive-transcript/bbctextav-master/iiif/image_api/canvas#t=208.02,211.86",
             "type": "Annotation"
         },
         {
             "body": {
                 "language": "en",
                 "type": "TextualBody",
-                "value": "about using the AAA f image API, and all the different features that you can use"
+                "value": "rules about using the AAA f image API, and all the different features that you"
             },
             "id": "https://hadro.github.io/iiif-interactive-transcript/bbctextav-master/iiif/text-41",
             "motivation": "supplementing",
-            "target": "https://hadro.github.io/iiif-interactive-transcript/bbctextav-master/iiif/image_api/canvas#t=212.25,216.72",
+            "target": "https://hadro.github.io/iiif-interactive-transcript/bbctextav-master/iiif/image_api/canvas#t=211.86,216.42000000000002",
             "type": "Annotation"
         },
         {
             "body": {
                 "language": "en",
                 "type": "TextualBody",
-                "value": "with the image API. And this is the thing that both the server and the client"
+                "value": "can use with the image API. And this is the thing that both the server and the"
             },
             "id": "https://hadro.github.io/iiif-interactive-transcript/bbctextav-master/iiif/text-42",
             "motivation": "supplementing",
-            "target": "https://hadro.github.io/iiif-interactive-transcript/bbctextav-master/iiif/image_api/canvas#t=216.72,220.71",
+            "target": "https://hadro.github.io/iiif-interactive-transcript/bbctextav-master/iiif/image_api/canvas#t=216.42000000000002,220.26",
             "type": "Annotation"
         },
         {
             "body": {
                 "language": "en",
                 "type": "TextualBody",
-                "value": "agree on. The controls are interaction. And I'll do some highlights of that"
+                "value": "client agree on. The controls are interaction. And I'll do some highlights of"
             },
             "id": "https://hadro.github.io/iiif-interactive-transcript/bbctextav-master/iiif/text-43",
             "motivation": "supplementing",
-            "target": "https://hadro.github.io/iiif-interactive-transcript/bbctextav-master/iiif/image_api/canvas#t=220.74,224.82",
+            "target": "https://hadro.github.io/iiif-interactive-transcript/bbctextav-master/iiif/image_api/canvas#t=220.26,224.67000000000002",
             "type": "Annotation"
         },
         {
             "body": {
                 "language": "en",
                 "type": "TextualBody",
-                "value": "today. And then the other thing I talked about is the image API server. And this"
+                "value": "that today. And then the other thing I talked about is the image API server. And"
             },
             "id": "https://hadro.github.io/iiif-interactive-transcript/bbctextav-master/iiif/text-44",
             "motivation": "supplementing",
-            "target": "https://hadro.github.io/iiif-interactive-transcript/bbctextav-master/iiif/image_api/canvas#t=224.82,229.53",
+            "target": "https://hadro.github.io/iiif-interactive-transcript/bbctextav-master/iiif/image_api/canvas#t=224.67000000000002,229.38",
             "type": "Annotation"
         },
         {
             "body": {
                 "language": "en",
                 "type": "TextualBody",
-                "value": "is the actual bit of software that you install somewhere on a server that"
+                "value": "this is the actual bit of software that you install somewhere on a server that"
             },
             "id": "https://hadro.github.io/iiif-interactive-transcript/bbctextav-master/iiif/text-45",
             "motivation": "supplementing",
-            "target": "https://hadro.github.io/iiif-interactive-transcript/bbctextav-master/iiif/image_api/canvas#t=229.53,233.25",
+            "target": "https://hadro.github.io/iiif-interactive-transcript/bbctextav-master/iiif/image_api/canvas#t=229.38,233.25",
             "type": "Annotation"
         },
         {
