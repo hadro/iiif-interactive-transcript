@@ -27,16 +27,15 @@ def make_coll_manifest(manifest):
     coll_manifest["label"] = manifest["label"]
     return coll_manifest
 
-
 def make_manifest(speech):
     manifest = deepcopy(settings.MANIFEST)
     identifier = speech["id"]
     manifest["id"] = get_uri(identifier, settings.MANIFEST_ID_TEMPLATE)
     manifest["label"] = lang_de(speech["date"] + ": " + speech["headline"])
-    add_metadata(manifest, "wahlperiode", speech)
-    add_metadata(manifest, "sitzungsnummer", speech)
+    #add_metadata(manifest, "wahlperiode", speech)
+    #add_metadata(manifest, "sitzungsnummer", speech)
     add_metadata(manifest, "date", speech)
-    add_metadata(manifest, "rednerID", speech)   
+    #add_metadata(manifest, "rednerID", speech)   
     canvas = manifest["items"][0]
     canvas["id"] = get_uri(identifier, settings.CANVAS_URI_TEMPLATE)
     canvas["duration"] = speech["duration"]
@@ -72,7 +71,8 @@ def make_annotations(speech):
     #     speech["wahlperiode"],
     #     speech["sitzungsnummer"].zfill(3),
     #     identifier)
-    path = "/Users/joshhadro/Downloads/intro.vtt"
+    path = "/Users/joshhadro/Downloads/{0}.vtt".format(
+        identifier)
     print(path)
     vtt_lines = load_lines(path)
     captions = []

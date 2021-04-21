@@ -1,12 +1,23 @@
 {
-"values": 
-	{"id": "IIIFIIIF",
-	"wahlperiode": "NA",
-	"date": "June 10, 2020",
-	"headline": "Introduction to IIIF",
-	"duration": 3048,
-	"mediaID": "IIIFWEEKA",
-	"sitzungsnummer": "888",
-	"rednerID": "no_idea"
-	}
+"manifest_1": 
+		{"id": "intro_a",
+		"mediaID": "intro_a",
+		"date": "June 10, 2020",
+		"headline": "Introduction to IIIF",
+		"duration": 3048
+		},
+"manifest_2":
+		{"id": "image_api",
+		"mediaID": "image_api",
+		"date": "June 29, 2020",
+		"headline": "Introduction to the IIIF Image API",
+		"duration": 3569
+		},
+"manifest_3":
+		{"id": "prezi_api",
+		"mediaID": "prezi_api",
+		"date": "June 29, 2020",
+		"headline": "Introduction to IIIF Presentation API",
+		"duration": 3473
+		}
 }

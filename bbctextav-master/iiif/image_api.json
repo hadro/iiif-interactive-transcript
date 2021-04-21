@@ -1,0 +1,64 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "http://iiif.io/api/presentation/3/context.json"
+    ],
+    "id": "https://hadro.github.io/iiif-interactive-transcript/bbctextav-master/iiif/image_api.json",
+    "items": [
+        {
+            "annotations": [
+                {
+                    "id": "https://hadro.github.io/iiif-interactive-transcript/bbctextav-master/iiif/image_api-transcript.json",
+                    "type": "AnnotationPage"
+                }
+            ],
+            "duration": 3569,
+            "height": 1080,
+            "id": "https://hadro.github.io/iiif-interactive-transcript/bbctextav-master/iiif/image_api/canvas",
+            "items": [
+                {
+                    "id": "https://hadro.github.io/iiif-interactive-transcript/bbctextav-master/iiif/image_api/annopage",
+                    "items": [
+                        {
+                            "body": {
+                                "duration": 3569,
+                                "format": "video/mp4",
+                                "height": 1080,
+                                "id": "https://phantor.net/iiif/image_api.mp4",
+                                "type": "Video",
+                                "width": 1920
+                            },
+                            "id": "https://hadro.github.io/iiif-interactive-transcript/bbctextav-master/iiif/image_api/content-anno-1",
+                            "motivation": "painting",
+                            "target": "https://hadro.github.io/iiif-interactive-transcript/bbctextav-master/iiif/image_api/canvas",
+                            "type": "Annotation"
+                        }
+                    ],
+                    "type": "AnnotationPage"
+                }
+            ],
+            "type": "Canvas",
+            "width": 1920
+        }
+    ],
+    "label": {
+        "en": [
+            "June 29, 2020: Introduction to the IIIF Image API"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "en": [
+                    "date"
+                ]
+            },
+            "value": {
+                "en": [
+                    "June 29, 2020"
+                ]
+            }
+        }
+    ],
+    "type": "Manifest"
+}

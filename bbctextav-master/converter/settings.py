@@ -9,7 +9,7 @@ CANVAS_URI_TEMPLATE = "iiif/{0}/canvas"
 ANNOPAGE_URI_TEMPLATE = "iiif/{0}/annopage"
 ANNO_URI_TEMPLATE = "iiif/{0}/content-anno-1"
 # '.$speech['mediaID'].'  
-VIDEO_URI_TEMPLATE = "https://phantor.net/iiif/intro.mp4"
+VIDEO_URI_TEMPLATE = "https://phantor.net/iiif/{0}.mp4"
 TEXT_ANNOS_URI_TEMPLATE = "iiif/{0}-transcript.json"
 CAPTION_URI_TEMPLATE = "iiif/{0}"
 
@@ -92,7 +92,7 @@ COLLECTION = OrderedDict({
   ],
   "id": None,
   "type": "Collection",
-  "label": { "en": [ "IIIF Intro Presentation Demo"]},
+  "label": { "en": [ "IIIF Intro Presentations Demo"]},
   "items": [
   ]
 })

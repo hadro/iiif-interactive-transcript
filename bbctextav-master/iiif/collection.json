@@ -6,10 +6,28 @@
     "id": "https://hadro.github.io/iiif-interactive-transcript/bbctextav-master/iiif/collection.json",
     "items": [
         {
-            "id": "https://hadro.github.io/iiif-interactive-transcript/bbctextav-master/iiif/IIIFIIIF.json",
+            "id": "https://hadro.github.io/iiif-interactive-transcript/bbctextav-master/iiif/intro_a.json",
             "label": {
                 "en": [
                     "June 10, 2020: Introduction to IIIF"
+                ]
+            },
+            "type": "Manifest"
+        },
+        {
+            "id": "https://hadro.github.io/iiif-interactive-transcript/bbctextav-master/iiif/image_api.json",
+            "label": {
+                "en": [
+                    "June 29, 2020: Introduction to the IIIF Image API"
+                ]
+            },
+            "type": "Manifest"
+        },
+        {
+            "id": "https://hadro.github.io/iiif-interactive-transcript/bbctextav-master/iiif/prezi_api.json",
+            "label": {
+                "en": [
+                    "June 29, 2020: Introduction to IIIF Presentation API"
                 ]
             },
             "type": "Manifest"
@@ -17,7 +35,7 @@
     ],
     "label": {
         "en": [
-            "IIIF Intro Presentation Demo"
+            "IIIF Intro Presentations Demo"
         ]
     },
     "type": "Collection"
