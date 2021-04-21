@@ -42,7 +42,7 @@ $(document).ready( function() {
 		
 			var data = this;
 
-			$('.title').text(data.label.de);
+			$('.title').text(data.label.en);
 
 			var videoSrc = data.items[0].items[0].items[0].body.id;
 			$('video').attr('src', videoSrc);
